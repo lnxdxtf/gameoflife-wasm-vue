@@ -11,7 +11,7 @@
           'STOP' : 'START' }}</span>
 
       <pre v-if="start" id="game-of-live-pre"
-        class="w-fit h-fit rounded-md bg-neutral-700 text-xs text-cyan-500 p-1">{{ universeRender }}</pre>
+        class="w-fit h-fit rounded-md bg-neutral-700 text-[5px] text-cyan-500 leading-none font-thin p-1">{{ universeRender }}</pre>
     </div>
   </div>
 </template>

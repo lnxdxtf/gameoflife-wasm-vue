@@ -13,10 +13,7 @@ use wasm_bindgen::prelude::*;
 //     fn alert(s: &str);
 // }
 
-// #[wasm_bindgen]
-// pub fn greet() {
-//     alert("Hello, wasm-app!");
-// }
+
 
 #[wasm_bindgen]
 #[repr(u8)]
